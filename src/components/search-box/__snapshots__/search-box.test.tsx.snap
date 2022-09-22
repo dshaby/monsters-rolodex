@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card-List Component 1`] = `
+<DocumentFragment>
+  <div>
+    <input
+      class="search-box Sample Class"
+      placeholder="Hey"
+      type="search"
+      value="me"
+    />
+  </div>
+</DocumentFragment>
+`;

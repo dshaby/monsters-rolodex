@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component renders 1`] = `
+<DocumentFragment>
+  <div
+    class="card-container"
+  >
+    <img
+      alt="monster Daniel"
+      src="https://robohash.org/123?set=set2&size=180x180"
+    />
+    <h2>
+      Daniel
+    </h2>
+    <p>
+      hey@me.com
+    </p>
+  </div>
+</DocumentFragment>
+`;

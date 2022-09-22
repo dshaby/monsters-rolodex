@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import Card from "./card.component";
 
 const myMonster = {
@@ -7,8 +7,9 @@ const myMonster = {
     email: "hey@me.com"
 }
 
-test("Card Component", () => {
+test("Card Component renders", () => {
     // my tests
-    render(<Card monster={myMonster} />);
-    // expect(screen.)
-})
+    const {asFragment} = render(<Card monster={myMonster} />);
+    // expect((screen.getByRole("div").length).)
+    expect(asFragment()).toMatchSnapshot();
+});
